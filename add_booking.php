@@ -17,8 +17,6 @@
 
         if(!$result){
             die("Fallo query");
-        } else {
-            header('location: index.php');
         }
 
     }

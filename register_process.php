@@ -25,7 +25,7 @@ $stmt->bind_param("sssss", $nombre, $apellido, $email, $hashed_password, $role);
 
 // Ejecutar la consulta
 if ($stmt->execute()) {
-    header('Location: admin_page.php');
+    header('Location: index.php');
 } else {
     echo "Error al registrar el usuario: " . $stmt->error;
 }
